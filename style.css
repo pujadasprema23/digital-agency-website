@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*header section styles*/
+
+.first-container{
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: rgb(201, 198, 198);
+padding: 20px;
+color: white;
+}
+
+.menus{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: black;
+}
+
+.banner-container{
+    height: 100vh;
+    background-image: url("./images/first commit · gias-uddin-swe_digital-agency-b8@060596d_files/background.jpg"),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+   display: flex;
+    align-items: center;
+}
+
+.banner-title{
+    font-size: 70px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.primary{
+    color:red;
+}
+
+.banner-description{
+    width: 50%;
+    margin: auto;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.banner-info{
+    margin-left: 210px;
+}
+
+.btn{
+    padding: 12px 20px;
+    border: 0;
+    margin-top: 15px;
+}
+
+.bg-primary{
+    background-color: red;
+    color: white;
+}
