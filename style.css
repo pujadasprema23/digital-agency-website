@@ -198,6 +198,7 @@ ol{
 
 .blog-title{
     text-align: center;
+    font-size: 50px;
 }
 
 .blog-description{
@@ -222,7 +223,7 @@ ol{
 
 .card-title{
     margin-top: 10px;
-    padding: 5px;
+    padding: 10px;
 }
 
 .card-description{
@@ -231,7 +232,7 @@ ol{
 
 .card{
     width:250px;
-    height: 320px;
+    height: 325px;
     border-radius: 5px;
     box-shadow: 4px 0px 8px 0px;
     
@@ -244,4 +245,43 @@ ol{
 .blog-description{
     margin-top: 10px;
     margin-bottom: 40px;
+}
+
+/*footer section styles*/
+
+.last-container{
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   background-color: black;
+    color: white;
+    padding:100px;
+
+}
+
+.logo-description{
+    width: 50%;
+    line-height: 30px;
+}
+
+li{
+    list-style: none;
+    margin-right: 40px;
+}
+
+.link-title{
+    margin-bottom: 40px;
+}
+
+.logo-photo{
+    margin-bottom: 20px;
+}
+
+.logo-container{
+    margin-left: 80px;
+}
+
+.links-container{
+    margin-right: 80px;
 }
